@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+    android:background="@drawable/r1"  >
+    <RelativeLayout android:id="@+id/relativeLayout1"
+    
+     android:layout_height="fill_parent" android:layout_width="fill_parent">
+   <ImageView 
+          android:id="@+id/playbutton1"
+          android:src="@drawable/play_n"
+          android:adjustViewBounds="true"
+          android:layout_alignParentRight="true"
+         android:layout_above="@+id/helpbutton1"
+          android:clickable="true"
+          android:paddingRight="20dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" android:paddingBottom="15dp"/>
+       <ImageView 
+          android:id="@+id/helpbutton1"
+          android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"
+          android:clickable="true"
+          android:src="@drawable/help_n"
+          android:adjustViewBounds="true"
+          android:layout_height="wrap_content" 
+           android:layout_width="wrap_content" android:paddingRight="20dp"/>
+          </RelativeLayout>
+</LinearLayout>

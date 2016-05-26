@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:orientation="vertical"
+    android:background="@drawable/set" android:visibility="visible" android:clickable="true">
+	                     <Button 
+	                     android:background="@android:color/transparent"
+	                      android:id="@+id/facebookbutton" 
+	                      android:layout_width="100dp" 
+	                      android:layout_height="25dp"
+	                       android:layout_x="77dip" 
+	                       android:layout_y="345dip">
+	                       </Button>
+	                     <Button 
+	                     android:background="@android:color/transparent" 
+	                     android:id="@+id/twitterbutton" 
+	                     android:layout_width="100dp" 
+	                     android:layout_height="25dp" 
+	                     android:layout_x="215dip" 
+	                     android:layout_y="340dip">
+	                     </Button>
+	                     <Button 
+	                     android:background="@android:color/transparent" 
+	                     android:id="@+id/aboutbutton" 
+	                     android:layout_width="100dp" 
+	                     android:layout_height="25dp" 
+	                     android:layout_x="154dip" 
+	                     android:layout_y="306dip">
+	                     </Button>
+	                     <ToggleButton 
+	                     android:text="ToggleButton" 
+	                     android:background="@android:color/transparent" 
+	                     android:clickable="true" 
+	                     android:id="@+id/toggleButton2" 
+	                     android:layout_width="100dp" 
+	                     android:layout_height="25dp" 
+	                     android:layout_x="147dip" 
+	                     android:layout_y="190dip" android:textOn="Hard" android:textOff="Easy">
+	                     </ToggleButton>
+	                     <ToggleButton 
+	                     android:text="ToggleButton" 
+	                     android:background="@android:color/transparent" 
+	                     android:textOn="Red" 
+	                     android:clickable="true" 
+	                     android:id="@+id/togglebutton" 
+	                     android:layout_width="100dp" 
+	                     android:textOff="Green" 
+	                     android:layout_height="25dp" 
+	                     android:layout_x="143dip" 
+	                     android:layout_y="151dip">
+	                     </ToggleButton>
+	                     <Button android:background="@android:color/transparent" android:id="@+id/homebutton5" android:layout_width="100dp" android:layout_height="25dp" android:layout_x="17dip" android:layout_y="19dip"></Button>
+	                     <Button android:background="@android:color/transparent" android:id="@+id/button1" android:layout_width="100dp" android:layout_height="25dp" android:layout_x="140dip" android:layout_y="231dip"></Button>
+	                     <ToggleButton android:text="ToggleButton" android:background="@android:color/transparent" android:clickable="true" android:id="@+id/toggleButton1" android:layout_width="100dp" android:textOff="OFF" android:layout_height="25dp" android:layout_x="144dip" android:layout_y="268dip"></ToggleButton>
+	                     
+	
+	    </AbsoluteLayout>

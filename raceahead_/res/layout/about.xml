@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent" 
+    android:orientation="vertical"
+    android:background="@drawable/r4">
+    <RelativeLayout 
+    android:layout_height="fill_parent" 
+    android:id="@+id/relativeLayout1" 
+    android:layout_width="fill_parent">
+        <ImageView 
+        android:src="@drawable/home_n" 
+        android:id="@+id/homebutton5" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true"
+          android:layout_alignParentLeft="true"
+          android:layout_centerHorizontal="true"  
+        android:adjustViewBounds="true" 
+        android:layout_width="wrap_content" android:paddingLeft="70dp">
+        </ImageView>
+        
+        <ImageView 
+       
+        android:src="@drawable/play_n"
+        android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true"
+          android:layout_centerHorizontal="true"  
+        android:id="@+id/playbutton4" 
+        android:layout_height="wrap_content" 
+        android:scaleType="fitXY" 
+        android:adjustViewBounds="true" 
+        android:layout_width="wrap_content">
+        </ImageView>
+    </RelativeLayout>         
+</LinearLayout>

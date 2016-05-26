@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="fill_parent" 
+    android:layout_width="fill_parent" 
+    android:orientation="vertical"
+    android:background="@drawable/r2" xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_height="fill_parent" android:layout_width="fill_parent"  >
+     
+          <ImageView 
+          android:src="@drawable/play_n"
+          android:adjustViewBounds="true"
+          android:layout_alignParentRight="true"
+         android:layout_above="@+id/helpbutton2"
+          android:clickable="true"
+          android:paddingRight="20dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" android:paddingBottom="15dp" android:id="@+id/playbutton2"/>
+          <ImageView 
+          android:id="@+id/helpbutton2"
+           android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"
+          android:src="@drawable/help_n"
+          android:scaleType="fitXY"
+          android:adjustViewBounds="true"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" android:paddingRight="20dp"/>
+          <ImageView 
+          android:id="@+id/settingbutton"
+          android:layout_alignParentRight="true"
+         android:layout_below="@+id/helpbutton2"
+          android:src="@drawable/settings_n"
+          android:adjustViewBounds="true"
+          android:paddingRight="20dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" android:paddingTop="15dp"/>
+    </RelativeLayout>
+    
+	   
+</LinearLayout>

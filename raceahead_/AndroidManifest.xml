@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.raceahead_"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".raceahead_"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER"/>
+                </intent-filter>
+                </activity>
+         <activity android:name=".play"></activity>
+           <activity android:name=".play1"></activity>
+          <activity android:name=".help"></activity>
+        <activity android:name=".home"></activity>
+         <activity android:name=".setting"></activity>
+         <activity android:name=".about"></activity>
+         <activity android:name=".facebook"></activity>
+         <activity android:name=".profile"></activity>
+         <activity android:name=".twitter"></activity>
+         <activity android:name=".Colour"></activity>
+         <activity android:name=".StartGame"></activity>
+         <activity android:name=".GameView"></activity>
+         <activity android:name=".GameViewThread"></activity>
+    
+        
+       </application>
+       </manifest>

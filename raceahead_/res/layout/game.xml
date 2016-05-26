@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@drawable/new_road"  >
+    <RelativeLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/relativeLayout1">
+    <ImageView 
+          android:id="@+id/topbord"
+          android:src="@drawable/top_bord"
+          android:scaleType="fitXY"
+          android:adjustViewBounds="true"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" 
+          android:keepScreenOn="true"/>
+          
+    <ImageView 
+          android:id="@+id/car1"
+          android:src="@drawable/car_1"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true"
+          android:scaleType="fitXY"
+          android:adjustViewBounds="true"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" 
+          android:keepScreenOn="true" android:paddingRight="20dp"/>
+          
+          <ImageView 
+          android:id="@+id/car4"
+          android:src="@drawable/car_4"
+          android:layout_alignParentBottom="true"
+          android:layout_marginLeft="115dp"
+          android:scaleType="fitXY"
+          android:adjustViewBounds="true"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" 
+          android:keepScreenOn="true"/>
+          
+            <ImageView 
+          android:id="@+id/car5"
+          android:src="@drawable/car_5"
+          android:layout_alignParentBottom="true"
+           android:layout_marginLeft="66dp" 
+          android:scaleType="fitXY"
+          android:adjustViewBounds="true"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" 
+          android:keepScreenOn="true"/>
+              <ImageView 
+          android:id="@+id/car2"
+          android:src="@drawable/car_2"
+          android:layout_alignParentBottom="true"
+           android:layout_marginLeft="215dp" 
+          android:scaleType="fitXY"
+          android:adjustViewBounds="true"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" 
+          android:keepScreenOn="true"/>
+          
+          <ImageView 
+          android:id="@+id/car6"
+          android:src="@drawable/car_6"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentLeft="true"
+          android:scaleType="fitXY"
+          android:adjustViewBounds="true"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" 
+          android:keepScreenOn="true"
+          android:paddingLeft="20dp"/>
+          <ImageView 
+            android:scaleType="fitXY" 
+            android:adjustViewBounds="true" 
+            
+            android:id="@+id/car3"
+            android:src="@drawable/car_3" 
+            android:layout_width="wrap_content" 
+            android:keepScreenOn="true" 
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="165dp" 
+            android:layout_alignParentBottom="true">
+            </ImageView>
+</RelativeLayout>
+    </LinearLayout>
